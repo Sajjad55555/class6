@@ -1,5 +1,5 @@
-//Assignment for the week is:
- // Create a function that takes an array, an index, and a value as parameters. Inside the function,
+//Assignment3 for the week is:
+ //1- Create a function that takes an array, an index, and a value as parameters. Inside the function,
  // use the splice method to insert the value at the specified index in the array.
  // Return the modified array.
  
@@ -21,10 +21,10 @@ function remove(index:number, addRmove:number){
     console.log(shopingcart);}
 function quantities(){
     console.log(shopingcart.length);}
-    //additem(1,0,"water")
-    //additem(1,0,"water")
-   //remove(1,1)       
-    //quantities()
+    additem(1,0,"water")
+    additem(1,0,"water")
+   remove(1,1)       
+    quantities()
  //3- Write a program that uses a while loop to print the first 25 integers.
  var a:number=0;
  while(a<26){
@@ -75,4 +75,3 @@ console.log(positiveNum);
     console.log(sum);
     }
     sumArry([1,2,3,4,5])
- //8 Implement a program that takes a list of temperatures in Celsius as input from the user. Convert each temperature to Fahrenheit using the formula F = (C * 9/5) + 32 and store the converted temperatures in an array. Use a while loop to perform the conversion for each temperature.
